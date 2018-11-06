@@ -11,6 +11,11 @@ import lombok.extern.log4j.Log4j;
 @RequestMapping("/sample/*")
 public class SampleController {
 	
+	@GetMapping("/register")
+	public void register() {
+		log.info("register...");
+	}
+	
 	@GetMapping("/all")
 	public void doAll() {
 		log.info("can access everybody");

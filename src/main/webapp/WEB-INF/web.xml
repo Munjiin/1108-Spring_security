@@ -42,5 +42,6 @@
 	<filter-name>springSecurityFilterChain</filter-name>
 	<url-pattern>/*</url-pattern> <!-- url pattern 과 맞춰서 -->
 	</filter-mapping>
+	
 
 </web-app>

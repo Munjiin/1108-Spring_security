@@ -41,6 +41,8 @@ public class CustomLoginSuccessHandler extends SavedRequestAwareAuthenticationSu
 		log.info("login fail");
 		log.info(exception);
 		
+		response.sendRedirect("/customLogin?ex001"); //로그인 실패시 화면 그대로
+		
 	}
 
 	@Override
@@ -53,5 +55,4 @@ public class CustomLoginSuccessHandler extends SavedRequestAwareAuthenticationSu
 		response.sendRedirect("/customLogin");
 		
 	}
-
 }

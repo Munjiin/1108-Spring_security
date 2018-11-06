@@ -10,5 +10,7 @@
 
 <h1>sample admin page</h1>
 
+<h3><a href='/customLogout'>logout</a></h3>
+
 </body>
 </html>
